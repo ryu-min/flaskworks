@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <h1>{{ title }}</h1>
+        <form method="post" action="/send">
+        入力歩数:<input type="text" id="msg" name="msg1"><br>
+        <input type="submit" value="送信">
+        </form>
+        <li>{{ datetime.date.today() }}<li>
     </body>
 </html>
